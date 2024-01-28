@@ -1,7 +1,9 @@
+import { Button } from "@/components/ui/button";
+
 export default function Home() {
   return (
     <div>
-      <h1 className=" text-3xl font-bold">Auth.js Toolkit Home</h1>
+      <Button size={"lg"}>Click Me</Button>
     </div>
   );
 }
